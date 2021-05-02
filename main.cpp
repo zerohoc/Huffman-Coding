@@ -17,7 +17,6 @@ int main()
 	file.close();
 
 	//Find Frequencies
-	std::cout << "Part - 1" << std::endl << std::endl;
 	std::map<std::string, int> letterFreqs;
 	CreateFreqMap(letterArray, letterFreqs, 1);
 	PrintFreqMap(letterFreqs);
