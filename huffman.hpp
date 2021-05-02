@@ -185,7 +185,7 @@ void GenerateCodes(Node * root, std::map<std::string, std::string> & codeMap, st
 	if ("\"\"" != root->data.first)
 	{
 		codeMap.insert(std::make_pair(root->data.first, currentCode));
-		//std::cout << root->data.first << " => " << currentCode << std::endl;
+		std::cout << root->data.first << " => " << currentCode << std::endl;
 	}
 	
 
